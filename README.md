@@ -26,12 +26,10 @@ grunt.loadNpmTasks('grunt-chrome-extensions-reloaded');
 
 You can then run the task alone:
 ```js
-grunt.loadNpmTasks('grunt-chrome-extensions-reloaded');
+grunt chrome-extensions-reloaded
 ```
 
 Or add it to your grunt-contrib-watch task:
-
-grunt-chrome-extension-reload as-is. The recommended use case is as follows:
 
 ```js
     watch: {
