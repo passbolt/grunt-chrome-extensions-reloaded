@@ -31,12 +31,18 @@ module.exports = function(grunt) {
   function reloadChromeExtensions() {
     var cmd = "chrome-cli reload -t " + tabId;
     exec(cmd, function(error, stdout, stderr) {
+      if(stderr) {
+        return console.error(stderr);
+      }
     });
   }
 
   function openChromeExtensions() {
     var cmd = "chrome-cli open chrome://extensions | grep 'Id:' | awk '{print $2}'";
     exec(cmd, function(error, stdout, stderr) {
+      if(stderr) {
+        return console.error(stderr);
+      }
       tabId = stdout;
       reloadChromeExtensions();
     });
