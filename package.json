@@ -1,0 +1,37 @@
+{
+  "name": "grunt-chrome-extensions-reloaded",
+  "description": "Reload Chrome Extensions",
+  "author": {
+    "name":  "Bolt Softwares Pvt. Ltd.",
+    "email": "contact@passbolt.com",
+    "url": "https://www.passbolt.com"
+  },
+  "license": "MIT",
+  "version": "0.1.0",
+  "homepage": "https://github.com/passbolt/grunt-chrome-extensions-reloaded#readme",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/passbolt/grunt-chrome-extensions-reloaded.git"
+  },
+  "keywords": [
+    "grunt",
+    "chrome",
+    "extensions",
+    "reload"
+  ],
+  "bugs": {
+    "url": "https://github.com/passbolt/grunt-chrome-extensions-reloaded/issues"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
