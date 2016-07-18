@@ -5,8 +5,7 @@ are developing a chrome extension. You will need to install [chrome-cli](https:/
 
 ## How is this different from existing modules?
 
-This work is based on an original idea by freedomflyer, check it out:
-https://github.com/freedomflyer/grunt-chrome-extension-reload
+This work is based on an original idea by freedomflyer, [check it out](https://github.com/freedomflyer/grunt-chrome-extension-reload)
 
 Main differences:
 - No other grunt task dependencies
@@ -14,6 +13,13 @@ Main differences:
 - No unit tests, no nothing
 
 ## Getting Started
+Install [chrome-cli](https://github.com/prasmussen/chrome-cli), something like:
+
+```shell
+brew install chrome-cli
+```
+
+Add the task to your list of project dependencies:
 
 ```shell
 npm install grunt-chrome-extensions-reloaded --save-dev
@@ -26,6 +32,7 @@ grunt.loadNpmTasks('grunt-chrome-extensions-reloaded');
 ```
 
 You can then run the task alone:
+
 ```js
 grunt chrome-extensions-reloaded
 ```
