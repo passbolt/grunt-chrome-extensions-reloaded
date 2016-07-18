@@ -1,7 +1,7 @@
 # grunt-chrome-extensions-reloaded
 
-This grunt utility can help reload open chrome extensions (chrome://extensions) and help with chrome extension development.
-You will need to install [chrome-cli](https://github.com/prasmussen/chrome-cli) to interface with Chrome.
+This grunt utility can help reload open chrome extensions (chrome://extensions) and therefore help you if you
+are developing a chrome extension. You will need to install [chrome-cli](https://github.com/prasmussen/chrome-cli) to interface with Chrome.
 
 ## How is this different from existing modules?
 
@@ -11,6 +11,7 @@ https://github.com/freedomflyer/grunt-chrome-extension-reload
 Main differences:
 - No other grunt task dependencies
 - Some killer features such as: opening a tab if you don't have one open already. 😉
+- No unit tests, no nothing
 
 ## Getting Started
 
