@@ -33,14 +33,14 @@ grunt chrome-extensions-reloaded
 Or add it to your grunt-contrib-watch task:
 
 ```js
-    watch: {
-      js: {
-        files: [
-          'js/**/*.js'
-        ],
-        tasks: [
-          'chrome_extensions_reloaded'
-        ]
-      }
-    }
+watch: {
+  js: {
+    files: [
+      'js/**/*.js'
+    ],
+    tasks: [
+      'chrome_extensions_reloaded'
+    ]
+  }
+}
 ```
